@@ -20,11 +20,11 @@ pip install wikipediautils
 
 Alternatively, you can clone the repository and install it manually:
 
-\`\`\`bash
+```bash
 git clone https://github.com/ashrithssreddy/wikipediautils.git
 cd wikipediautils
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## Usage
 
