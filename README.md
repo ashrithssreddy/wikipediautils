@@ -14,9 +14,9 @@
 
 You can install Wikipedia Utils using pip:
 
-\`\`\`bash
+```bash
 pip install wikipediautils
-\`\`\`
+```
 
 Alternatively, you can clone the repository and install it manually:
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 Here’s a simple example to get you started:
 
-\`\`\`python
+```python
 from wikipediautils.api_access import get_page_metadata
 from wikipediautils.visualization import visualize_interconnectedness
 
@@ -39,7 +39,7 @@ metadata = get_page_metadata('Artificial_intelligence')
 
 # Visualize the interconnectedness of the Wikipedia page and its categories
 visualize_interconnectedness(metadata)
-\`\`\`
+```
 
 ### Example Output
 
